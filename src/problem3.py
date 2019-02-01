@@ -182,7 +182,7 @@ def problem3(sequence):
       :rtype: int
     """
     # -------------------------------------------------------------------------
-    # TODO: 3. Implement and test this function.
+    # Done: 3. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
     newseq = []
