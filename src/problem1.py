@@ -139,6 +139,7 @@ def problem1(n):
     # and THEN try the full-credit version.
     # As always, CONTINUE to the next problem if you are STUCK on this one.
     # -------------------------------------------------------------------------
+    number = fibonacci(n)
 
 
 ###############################################################################

@@ -185,6 +185,15 @@ def problem3(sequence):
     # TODO: 3. Implement and test this function.
     #          Tests have been written for you (above).
     # -------------------------------------------------------------------------
+    newseq = []
+    primenums = 0
+    for k in range(len(sequence)):
+        if is_prime(sequence[k]):
+            sequence[k] = sequence[k] + 3
+            primenums = primenums + 1
+        newseq = newseq + [sequence[k]]
+    return primenums
+    return newseq
 
 
 ###############################################################################
