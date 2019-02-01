@@ -139,8 +139,10 @@ def problem1(n):
     # and THEN try the full-credit version.
     # As always, CONTINUE to the next problem if you are STUCK on this one.
     # -------------------------------------------------------------------------
-    number = fibonacci(n)
-
+    for k in range(n, 0, -1):
+        if fibonacci(k) < n:
+            return fibonacci(k)
+            break
 
 ###############################################################################
 # Our tests use the following to print error messages in red.

@@ -80,9 +80,11 @@ def shape(n):
     # IMPORTANT: In your final solution for this problem,
     #   you must NOT use string multiplication.
     ####################################################################
-    for j in range(1, n + 1):
-        for k in range(j):
-            print(j,  end='')
+    for j in range(n):
+        for k in range(n - j):
+            print(j + 1, end='')
+        print('*')
+
 
 # ----------------------------------------------------------------------
 # Calls  main  to start the ball rolling.
